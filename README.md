@@ -4,11 +4,7 @@
 
 The application is a web text editor where the user can create notes or code snippets with or without an internet connection and where the user can reliably retrieve them for later use.  The integrated service worker and Cache API's ensure that the application will remain fully functional even without and active internet connection.  This application allows the user to access visited pages even if the application is offline.
 
-The URL of the GitHub repository is https://github.com/stellalph/19-PWA-Text-Editor.git and the repository name is 19-PWA-Text-Editor.
 
-🚀The application has been deployed to Heroku and the URL of the deployed application is:-
- 
-https://mighty-waters-80466.herokuapp.com/
 
 ## Table of Contents
 
@@ -23,30 +19,41 @@ https://mighty-waters-80466.herokuapp.com/
 
 * This application will require the installation of Node.js and various npm packages.
 
-*   Node Package Manager (npm) is a software manager and installer which puts the modules in place so that the node project can utilize it, and also, it manages dependency conflicts intelligently and initialized using **npm init**. The package.json will be generated and will contains all the details of the application in which the user have inputted during the npm initialization. 
+* This application will use the following npm packages:-
 
-*  This application will use the following npm packages:-
+         express.js
+         Webpack
+         webpack-dev-server
+         WebpackPwaManifest
+         Babel
+         CSS-loader
+         Concurrently
+         IndexedDB
 
-         * npm install express (express.js)
-         * npm install --save-dev webpack (Webpack)
-         * npm install webpack-dev-server --save-dev (webpack-dev-server)
-         * npm install --save-dev webpack-pwa-manifest (WebpackPwaManifest)
-         * npm install babel (Babel)
-         * npm install --save-dev css-loader (CSS-loader)
-         * npm install concurrently --save (run multiple commands concurrently.) (Concurrently)
-         * npm npm install idb (IndexedDB)
+* All the required modules are bundled in the package.json file.
 
-* The required modules are bundled in the package.json file and at CLI or integrated terminal type in **npm run install**, the modules will be installed.       
+* To run this project, install it locally using npm:
+
+        npm install
+       
+* the modules will be installed.       
+
 
 
 ## Usage
 
+* After installing npm packages, the application will be invoked by using the following command:
 
 
+        1. Please type "npm start" in teminal
+        2. When it is connected, you can see the result by insomnia
+
+
+* The URL of the deployed application is : https://text-editor-19-pwa.herokuapp.com/
 
 ## Screenshot
 
-![Screenshot](./src/Screenshot%202023-04-26%20135803.jpg)
+![Screenshot](./client/img/Screenshot%202023-05-04%20172401.jpg)
 
 (screenshot image could be slitely different with the application)
 
